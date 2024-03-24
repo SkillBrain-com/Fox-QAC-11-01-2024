@@ -3,13 +3,22 @@ package OprisanMiruna.tema2;
 import java.util.Scanner;
 
 public class exercitiul2 {
+
+    private static char operatia;
+
+    public static void setOperatia(char operatia) {
+        exercitiul2.operatia = operatia;
+    }
 public static void main(String[] args){
 
-    Scanner numar1 = new Scanner(System.in);
-    Scanner numar2= new Scanner(System.in);
+    Scanner scanner= new Scanner(System.in);
+    int numar1 = scanner.nextInt();
+    int numar2 = scanner.nextInt();
 
 
-    switch () {
+
+
+    switch (operatia) {
         case 'a':
             System.out.println(numar1 + numar2);
             break;
@@ -32,4 +41,4 @@ public static void main(String[] args){
 
     }
 }
-}
+
