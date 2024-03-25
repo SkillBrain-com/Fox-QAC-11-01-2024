@@ -1,9 +1,10 @@
 package OprisanMiruna.tema2;
 
 public class exercitiul7 {
-//    public static <ArrayList> void main(String[] args) {
+    public static void main(String[] args) {
+//        ArrayList<Integer> lista = new ArrayList<>();
 //
-//        ArrayList lista = new ArrayList();
+//
 //        lista.add(52);
 //        lista.add(25);
 //        lista.add(6);
