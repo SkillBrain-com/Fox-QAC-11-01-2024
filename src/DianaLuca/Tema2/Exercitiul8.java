@@ -1,8 +1,8 @@
 package DianaLuca.Tema2;
+
 import java.util.ArrayList;
 
-public class Exercitiul8T2 {
-
+public class Exercitiul8 {
     public static void main(String[] args) {
         int[] myArray = new int[5];
 
