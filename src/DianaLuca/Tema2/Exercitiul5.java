@@ -1,7 +1,6 @@
 package DianaLuca.Tema2;
 
-public class Exercitiul5T2 {
-
+public class Exercitiul5 {
     public static void main(String[] args) {
 
         double[] sir = {4.5, 6, 7.2, 4.5};
@@ -17,5 +16,4 @@ public class Exercitiul5T2 {
             }
         }
     }
-
 }
