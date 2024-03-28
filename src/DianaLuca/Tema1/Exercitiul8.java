@@ -1,7 +1,6 @@
 package DianaLuca.Tema1;
 
 public class Exercitiul8 {
-
     public static void main(String[] args) {
         int x=2;
         int y=12;
