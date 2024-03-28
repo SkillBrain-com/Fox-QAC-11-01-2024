@@ -1,8 +1,8 @@
 package DianaLuca.Tema1;
+
 import java.util.Scanner;
 
 public class Exercitiul6 {
-
     public static void main(String[] args) {
         metoda();
     }
@@ -17,5 +17,4 @@ public class Exercitiul6 {
         System.out.println(numar1);
         System.out.println(numar2);
     }
-
 }
