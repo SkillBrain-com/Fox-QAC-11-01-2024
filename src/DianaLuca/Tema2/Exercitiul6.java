@@ -1,7 +1,6 @@
 package DianaLuca.Tema2;
 
-public class Exercitiul6T2 {
-
+public class Exercitiul6 {
     public static void main(String[] args) {
         int[] myArray = {10, 20, 30, 40, 50, 60, 70, 80, 90};
 
@@ -18,5 +17,4 @@ public class Exercitiul6T2 {
             }
         }
     }
-
 }
