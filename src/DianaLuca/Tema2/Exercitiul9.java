@@ -1,8 +1,8 @@
 package DianaLuca.Tema2;
+
 import java.util.Arrays;
 
-public class Exercitiul9T2 {
-
+public class Exercitiul9 {
     public static void main(String[] args) {
 
         int[] sirDeNumere = {1, 58, 10, 26, 17, 125, 46, 99};
