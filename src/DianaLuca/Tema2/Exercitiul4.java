@@ -1,7 +1,6 @@
 package DianaLuca.Tema2;
 
-public class Exercitiul4T2 {
-
+public class Exercitiul4 {
     public static void main(String[] args) {
 
         char[] sir = {'a', '%', 'g', '&', 'k'};
@@ -10,5 +9,4 @@ public class Exercitiul4T2 {
             System.out.println(sir[i]);
         }
     }
-
 }
