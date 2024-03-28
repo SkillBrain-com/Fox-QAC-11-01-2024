@@ -1,7 +1,6 @@
 package DianaLuca.Tema2;
 
-public class Exercitiul3T2 {
-
+public class Exercitiul3 {
     public static void main(String[] args) {
 
         int[][] sirulMeu = {{29, 40, 11},{2, 15, 89, 36, 100}};
@@ -15,5 +14,4 @@ public class Exercitiul3T2 {
         System.out.println("Primul si ultimul element din a 2 a dimensiune: " + sirulMeu[1][0] + " " + sirulMeu[1][4]);
 
     }
-
 }
