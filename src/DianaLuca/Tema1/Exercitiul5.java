@@ -1,7 +1,6 @@
 package DianaLuca.Tema1;
 
 public class Exercitiul5 {
-
     public static void main(String[] args) {
         myVariables();
     }
@@ -16,5 +15,4 @@ public class Exercitiul5 {
         System.out.println(trueOrFalse);
 
     }
-
 }
