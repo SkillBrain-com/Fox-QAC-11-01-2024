@@ -1,6 +1,6 @@
 package DianaLuca.Tema3;
 
-public class WizardsAndWarriors {
+public class WizardsAndWarriors1 {
     abstract class Fighter {
 
         boolean isVulnerable() {
