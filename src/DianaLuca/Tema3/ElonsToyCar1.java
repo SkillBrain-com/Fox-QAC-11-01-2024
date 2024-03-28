@@ -1,12 +1,12 @@
 package DianaLuca.Tema3;
 
-public class ElonsToyCar {
+public class ElonsToyCar1 {
 
     public int distanceDriven;
     public int batteryPercentage = 100;
 
-    public static ElonsToyCar buy() {
-        return new ElonsToyCar();
+    public static ElonsToyCar1 buy() {
+        return new ElonsToyCar1();
     }
     public String distanceDisplay() {
         String display = "Driven " + distanceDriven + " meters";
