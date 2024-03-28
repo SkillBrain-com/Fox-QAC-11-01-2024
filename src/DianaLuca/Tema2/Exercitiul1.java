@@ -1,9 +1,9 @@
 package DianaLuca.Tema2;
+
 import java.util.Random;
 import java.util.Scanner;
 
-public class Exercitiul1T2 {
-
+public class Exercitiul1 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
