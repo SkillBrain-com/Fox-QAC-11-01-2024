@@ -1,8 +1,8 @@
 package DianaLuca.Tema2;
+
 import java.util.ArrayList;
 
-public class Exercitiul7T2 {
-
+public class Exercitiul7 {
     public static void main(String[] args) {
         ArrayList<Integer> listaElemente = new ArrayList();
         listaElemente.add(15);
@@ -19,5 +19,4 @@ public class Exercitiul7T2 {
 
         System.out.println("Suma elementelor este: " + suma);
     }
-
 }
