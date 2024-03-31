@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+
+//    Definiti un array de char-uri.
+//    Iterati array-ul folosind structura for, si afisati pe ecran cate al doilea caracter din sir.
+
+      char[] arrayChar = {'*', '|', 'L', '@', '?', ';', '#', 'H', '1', 'y', '('};
+      for (int i=0; i< arrayChar.length; i +=2){
+          System.out.println(arrayChar[i]);
+      }
+
+    }
+}

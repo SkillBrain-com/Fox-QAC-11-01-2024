@@ -1,0 +1,13 @@
+// import static org.junit.jupiter.api.Assertions.assertEquals;
+
+// import org.junit.jupiter.api.Test;
+
+public class Main {
+  public static void main(String[] args) {
+    // 1. Scrieti un program care afiseaza “Imi place Java”
+    
+    System.out.println("Imi place Java!");
+
+  }
+
+}

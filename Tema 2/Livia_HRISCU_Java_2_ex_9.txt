@@ -1,0 +1,19 @@
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+
+//  Definiti o metoda care ia un array de numere (intregi sau cu virgula) si sa-l ordoneze crescator sau descrescator.
+
+        int[] numereDeComparat = {2, 19, 29, 7, 8, -85};
+        System.out.println(Arrays.toString(numereDeComparat));
+        System.out.println("Ordonarea crescatoare este:");
+
+        Arrays.sort(numereDeComparat);
+        
+     
+        for(int i=0; i<numereDeComparat.length; i++){
+            System.out.println(numereDeComparat[i]);
+        }
+    }
+}

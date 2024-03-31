@@ -1,0 +1,36 @@
+// import static org.junit.jupiter.api.Assertions.assertEquals;
+
+// import org.junit.jupiter.api.Test;
+
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+    
+     /* 7. Scrieti un program incare cititi de la tastatura un numar, si calculati:
+      - rezultatul sumei cu 5
+      - rezultatul scaderii cu 12.3
+      - rezultatul inmultirii cu -3.2
+      - rezultatul impartirii cu 4
+      - rezultatul modulului cu 6*/
+
+      Scanner scanner = new Scanner(System.in);
+
+      System.out.println("Introduceti numarul");
+      int numar = scanner.nextInt();
+
+      int sumaCu5 = numar + 5;
+      double scadereCu12virgula3 = (double)numar-12.3;
+      double inmultireCu3virgula2 = (double)numar * -3.2;
+      double impartireCu4 = (double)numar / 4;
+      int modulCu6 = numar % 6;
+
+      System.out.println(sumaCu5);
+      System.out.println(scadereCu12virgula3);
+      System.out.println(inmultireCu3virgula2);
+      System.out.println(impartireCu4);
+      System.out.println(modulCu6);
+    
+  }
+
+ }

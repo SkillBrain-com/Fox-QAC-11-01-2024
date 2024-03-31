@@ -1,0 +1,21 @@
+public class Main {
+  public static void main(String[] args) {
+
+//    Definiti un array de double, cu valori zecimale.
+//    Iterati array-ul folosind strutura for,
+//    si daca un element este egal cu valoarea 4.5, afisati-l pe ecran.
+//    Daca un element este mai mare decat 5, afisati mesajul “Element peste 5”
+
+      double[] arrayDouble = {2.55, 7.13, 157.21, 0.555, 4.50};
+    
+      numarContinut(arrayDouble);
+  }
+  public static void numarContinut(double[] sirDeNumere) {
+      for (double i : sirDeNumere) {
+          if (i == 4.5) {
+              System.out.println(i);
+          } else if (i > 5) {
+              System.out.println("Elementul este peste 5");
+          }
+      }
+  }}

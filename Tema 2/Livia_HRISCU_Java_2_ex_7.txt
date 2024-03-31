@@ -1,0 +1,17 @@
+public class Main {
+    public static void main(String[] args) {
+//  Definiti o lista de Integer, de 5 elemente. Calculati suma tuturor elementelor.
+
+        int[] listaDeInteger = {14, 29, 31, 7, 10};
+
+        sumaTotala(listaDeInteger);
+     }
+
+    public static void sumaTotala(int[] sirulMeu) {
+        int suma = 0;
+        for (int i : sirulMeu) {
+            suma = suma + i;
+        }
+        System.out.println(suma);
+    }
+}

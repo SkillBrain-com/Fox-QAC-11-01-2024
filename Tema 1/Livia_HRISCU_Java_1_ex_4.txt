@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+// import static org.junit.jupiter.api.Assertions.assertEquals;
+
+// import org.junit.jupiter.api.Test;
+
+public class Main {
+    public static void main(String[] args) {
+        // 4. Scrieti un program in care cititi o propozitie de la tastatura
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Introduceti propozitia: ");
+        String text = scanner.nextLine();
+        System.out.println(text);
+    }
+
+}

@@ -1,0 +1,17 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+
+//Definiti un array si o lista. Determinati daca ele sunt goale sau nu.
+
+        int[] array = new int[5];
+        ArrayList<Integer> lista = new ArrayList<>();
+
+        System.out.println(Arrays.toString(array));
+        System.out.println(lista);
+
+//      Doar lista poate fi "goala", un array nu (el va fi populat cu valoarea 0/null, in functie de tipul de variabile)
+    }
+}

@@ -1,0 +1,23 @@
+ // 5. Scrieti un program in care definiti 3 variabile in metoda “myVariables”, un int, un String si un boolean, apoi apelati metoda din metoda “main”//
+
+public class Main {
+  
+  public static void main(String[] args) {
+    
+  MyVariables();
+    
+  }
+  
+  public static void MyVariables() {
+    int myAge = 25;
+    String myName = "Livia";
+    boolean AdevaratSauFals = true;
+
+    
+    System.out.println("Varsta mea este " + myAge);
+    System.out.println("Numele meu este " + myName);
+    System.out.println("Afirmatia este: " + AdevaratSauFals);
+       
+  }
+
+}
