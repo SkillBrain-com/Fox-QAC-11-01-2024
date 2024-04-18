@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-18T21:37:03 EEST" name="page object model" finished-at="2024-04-18T21:37:39 EEST" duration-ms="36459">
+    <groups>
+    </groups>
+    <test started-at="2024-04-18T21:37:03 EEST" name="page object model" finished-at="2024-04-18T21:37:39 EEST" duration-ms="36459">
+      <class name="AddToFavoritesTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:AddToFavoritesTest@657c8ad9]" started-at="2024-04-18T21:37:32 EEST" name="setup" finished-at="2024-04-18T21:37:35 EEST" duration-ms="3357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addToFavorites()[pri:0, instance:AddToFavoritesTest@657c8ad9]" started-at="2024-04-18T21:37:35 EEST" name="addToFavorites" finished-at="2024-04-18T21:37:38 EEST" duration-ms="3099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToFavorites -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AddToFavoritesTest@657c8ad9]" started-at="2024-04-18T21:37:38 EEST" name="tearDown" finished-at="2024-04-18T21:37:39 EEST" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AddToFavoritesTest -->
+      <class name="BuyProductTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:BuyProductTest@475e586c]" started-at="2024-04-18T21:37:23 EEST" name="setup" finished-at="2024-04-18T21:37:26 EEST" duration-ms="3692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="buyProduct()[pri:0, instance:BuyProductTest@475e586c]" started-at="2024-04-18T21:37:26 EEST" name="buyProduct" finished-at="2024-04-18T21:37:31 EEST" duration-ms="4732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:BuyProductTest@475e586c]" started-at="2024-04-18T21:37:31 EEST" name="tearDown" finished-at="2024-04-18T21:37:32 EEST" duration-ms="736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BuyProductTest -->
+      <class name="LoginTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:LoginTests@5d740a0f]" started-at="2024-04-18T21:37:03 EEST" name="setup" finished-at="2024-04-18T21:37:08 EEST" duration-ms="5512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="lockedAccount()[pri:0, instance:LoginTests@5d740a0f]" started-at="2024-04-18T21:37:08 EEST" name="lockedAccount" finished-at="2024-04-18T21:37:10 EEST" duration-ms="1684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lockedAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginTests@5d740a0f]" started-at="2024-04-18T21:37:10 EEST" name="tearDown" finished-at="2024-04-18T21:37:11 EEST" duration-ms="685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:LoginTests@5d740a0f]" started-at="2024-04-18T21:37:11 EEST" name="setup" finished-at="2024-04-18T21:37:14 EEST" duration-ms="3748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="successfulLogin()[pri:0, instance:LoginTests@5d740a0f]" started-at="2024-04-18T21:37:14 EEST" name="successfulLogin" finished-at="2024-04-18T21:37:17 EEST" duration-ms="2198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginTests@5d740a0f]" started-at="2024-04-18T21:37:17 EEST" name="tearDown" finished-at="2024-04-18T21:37:17 EEST" duration-ms="706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:LoginTests@5d740a0f]" started-at="2024-04-18T21:37:17 EEST" name="setup" finished-at="2024-04-18T21:37:21 EEST" duration-ms="3420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="unsuccessfulLogin()[pri:0, instance:LoginTests@5d740a0f]" started-at="2024-04-18T21:37:21 EEST" name="unsuccessfulLogin" finished-at="2024-04-18T21:37:22 EEST" duration-ms="1383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unsuccessfulLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginTests@5d740a0f]" started-at="2024-04-18T21:37:22 EEST" name="tearDown" finished-at="2024-04-18T21:37:23 EEST" duration-ms="676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LoginTests -->
+    </test> <!-- page object model -->
+  </suite> <!-- page object model -->
+</testng-results>
