@@ -27,6 +27,4 @@ public class LoginTests extends BasePage{
         loginPage.login("locked_user", "testingisfun99");
         loginPage.verifyLoginError("Your account has been locked.");
     }
-
-
 }
