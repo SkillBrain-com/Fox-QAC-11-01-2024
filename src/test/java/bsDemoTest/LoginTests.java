@@ -1,6 +1,11 @@
-import org.testng.annotations.Test;
+package bsDemoTest;
 
-public class LoginTests extends BasePage{
+import bsDemoTest.HomePage;
+import bsDemoTest.LoginPage;
+import org.testng.annotations.Test;
+import util.BasePage;
+
+public class LoginTests extends BasePage {
 
 
     @Test

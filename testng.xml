@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="page object model">
-    <test name="page object model">
+<suite name="browser Stak Demo">
+    <test name="browser Stak Demo">
         <classes>
-            <class name="LoginTests"></class>
-            <class name="BuyProductTest"></class>
-            <class name="AddToFavouritesTest"></class>
+            <class name="bsDemoTest.LoginTests"></class>
+            <class name="bsDemoTest.BuyProductTest"></class>
+            <class name="bsDemoTest.AddToFavouritesTest"></class>
+        </classes>
+    </test>
+    <test name="tool shop">
+        <classes>
+            <class name="toolShopTests.RegisterTest"></class>
         </classes>
     </test>
 </suite>
+

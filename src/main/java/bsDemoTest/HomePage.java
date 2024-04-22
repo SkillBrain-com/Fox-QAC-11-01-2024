@@ -1,3 +1,5 @@
+package bsDemoTest;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -91,6 +93,12 @@ public class HomePage {
     public void goToFavourites(){
         driver.findElement(goToFavouritesPage).click();
     }
+//    Varianta lunga:
+//    public String extractCeva(){
+//        String text = driver.findElement(productName).getText();
+//        return text;
+//    }
+
     public String extractProductName(){
         return driver.findElement(productName).getText();
     }

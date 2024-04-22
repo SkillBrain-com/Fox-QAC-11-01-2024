@@ -1,6 +1,13 @@
-import org.testng.annotations.Test;
+package bsDemoTest;
 
-public class BuyProductTest extends BasePage{
+import bsDemoTest.CheckoutPage;
+import bsDemoTest.HomePage;
+import bsDemoTest.LoginPage;
+import bsDemoTest.OrderConfirmationPage;
+import org.testng.annotations.Test;
+import util.BasePage;
+
+public class BuyProductTest extends BasePage {
 
     @Test
     public void buyProduct() throws InterruptedException {
