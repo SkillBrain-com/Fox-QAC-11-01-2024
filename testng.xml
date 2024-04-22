@@ -6,6 +6,7 @@
         <classes>
             <class name="LoginTests"></class>
             <class name="BuyProductTest"></class>
+            <class name="AddToFavourites"></class>
         </classes>
     </test>
 </suite>

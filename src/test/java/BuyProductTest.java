@@ -7,9 +7,15 @@ public class BuyProductTest extends BasePage{
         HomePage homePage = new HomePage(driver);
         LoginPage loginPage = new LoginPage(driver);
         CheckoutPage checkoutPage = new CheckoutPage(driver);
+        OrderConfirmationPage orderConfirmationPage = new OrderConfirmationPage(driver);
+
         driver.get("https://bstackdemo.com/");
+
         homePage.addToCart();
+        homePage.verifyCart();
+        homePage.checkOut();
         loginPage.login("demouser", "testingisfun99");
         checkoutPage.fillShipping();
+        orderConfirmationPage.verifyOrderPlacement();
     }
 }
