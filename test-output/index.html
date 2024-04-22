@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-page_object_model" class="navigator-link">
-              <span class="suite-name border-passed">page object model</span>
+              <span class="suite-name border-failed">page object model</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-page_object_model" class="hide-methods failed suite-page_object_model"> (hide)</a> <!-- hide-methods failed suite-page_object_model -->
+                      <a href="#" panel-name="suite-page_object_model" class="show-methods failed suite-page_object_model"> (show)</a> <!-- show-methods failed suite-page_object_model -->
+                    </span>
+                    <div class="method-list-content failed suite-page_object_model">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-page_object_model" title="bsDemo.AddToFavouritesTest" class="method navigator-link" hash-for-method="addToFavourites">addToFavourites</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-page_object_model -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,27 +117,22 @@
                     <div class="method-list-content passed suite-page_object_model">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-page_object_model" title="AddToFavouritesTest" class="method navigator-link" hash-for-method="addToFavourites">addToFavourites</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-page_object_model" title="bsDemo.BuyProductTest" class="method navigator-link" hash-for-method="buyProduct">buyProduct</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-page_object_model" title="BuyProductTest" class="method navigator-link" hash-for-method="buyProduct">buyProduct</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-page_object_model" title="bsDemo.LoginTests" class="method navigator-link" hash-for-method="lockedAccount">lockedAccount</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-page_object_model" title="LoginTests" class="method navigator-link" hash-for-method="lockedAccount">lockedAccount</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-page_object_model" title="bsDemo.LoginTests" class="method navigator-link" hash-for-method="successfulLogin">successfulLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-page_object_model" title="LoginTests" class="method navigator-link" hash-for-method="successfulLogin">successfulLogin</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-page_object_model" title="LoginTests" class="method navigator-link" hash-for-method="unsuccessfulLogin">unsuccessfulLogin</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-page_object_model" title="bsDemo.LoginTests" class="method navigator-link" hash-for-method="unsuccessfulLogin">unsuccessfulLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-page_object_model -->
@@ -138,25 +147,33 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-page_object_model" class="panel page_object_model">
-          <div class="suite-page_object_model-class-passed">
+          <div class="suite-page_object_model-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">BuyProductTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">bsDemo.AddToFavouritesTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="buyProduct">
-                  </a> <!-- buyProduct -->
-                  <span class="method-name">buyProduct</span>
+                  <a name="addToFavourites">
+                  </a> <!-- addToFavourites -->
+                  <span class="method-name">addToFavourites</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at bsDemo.HomePage.verifyFavouritesClicked(bsDemo.HomePage.java:87)
+	at bsDemo.AddToFavouritesTest.addToFavourites(bsDemo.AddToFavouritesTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-page_object_model-class-passed -->
+          </div> <!-- suite-page_object_model-class-failed -->
           <div class="suite-page_object_model-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">LoginTests</span>
+              <span class="class-name">bsDemo.LoginTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -185,14 +202,14 @@
           <div class="suite-page_object_model-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">AddToFavouritesTest</span>
+              <span class="class-name">bsDemo.BuyProductTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addToFavourites">
-                  </a> <!-- addToFavourites -->
-                  <span class="method-name">addToFavourites</span>
+                  <a name="buyProduct">
+                  </a> <!-- buyProduct -->
+                  <span class="method-name">buyProduct</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -209,9 +226,9 @@
 &lt;suite name=&quot;page object model&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;page object model&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;LoginTests&quot;/&gt;
-      &lt;class name=&quot;BuyProductTest&quot;/&gt;
-      &lt;class name=&quot;AddToFavouritesTest&quot;/&gt;
+      &lt;class name=&quot;bsDemo.LoginTests&quot;/&gt;
+      &lt;class name=&quot;bsDemo.BuyProductTest&quot;/&gt;
+      &lt;class name=&quot;bsDemo.AddToFavouritesTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- page object model --&gt;
 &lt;/suite&gt; &lt;!-- page object model --&gt;
@@ -254,24 +271,24 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'buyProduct')
-data.setCell(0, 2, 'BuyProductTest')
-data.setCell(0, 3, 1832);
+data.setCell(0, 2, 'bsDemo.BuyProductTest')
+data.setCell(0, 3, 1671);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'addToFavourites')
-data.setCell(1, 2, 'AddToFavouritesTest')
-data.setCell(1, 3, 1075);
+data.setCell(1, 2, 'bsDemo.AddToFavouritesTest')
+data.setCell(1, 3, 1053);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'unsuccessfulLogin')
-data.setCell(2, 2, 'LoginTests')
-data.setCell(2, 3, 762);
+data.setCell(2, 1, 'successfulLogin')
+data.setCell(2, 2, 'bsDemo.LoginTests')
+data.setCell(2, 3, 632);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'successfulLogin')
-data.setCell(3, 2, 'LoginTests')
-data.setCell(3, 3, 683);
+data.setCell(3, 1, 'lockedAccount')
+data.setCell(3, 2, 'bsDemo.LoginTests')
+data.setCell(3, 3, 612);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'lockedAccount')
-data.setCell(4, 2, 'LoginTests')
-data.setCell(4, 3, 604);
+data.setCell(4, 1, 'unsuccessfulLogin')
+data.setCell(4, 2, 'bsDemo.LoginTests')
+data.setCell(4, 3, 581);
 window.suiteTableData['page_object_model']= { tableData: data, tableDiv: 'times-div-page_object_model'}
 return data;
 }
@@ -302,72 +319,74 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">LoginTests</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">bsDemo.LoginTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">lockedAccount</span>
-                <span class="method-start">989 ms</span>
+                <span class="method-start">971 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">1594 ms</span>
+                <span class="method-start">1584 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">1680 ms</span>
+                <span class="method-start">1654 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">successfulLogin</span>
-                <span class="method-start">2440 ms</span>
+                <span class="method-start">2401 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">3123 ms</span>
+                <span class="method-start">3033 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">3200 ms</span>
+                <span class="method-start">3099 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">unsuccessfulLogin</span>
-                <span class="method-start">4024 ms</span>
+                <span class="method-start">3819 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">4787 ms</span>
+                <span class="method-start">4400 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">BuyProductTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">bsDemo.BuyProductTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">4858 ms</span>
+                <span class="method-start">4472 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">buyProduct</span>
-                <span class="method-start">5610 ms</span>
+                <span class="method-start">5191 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7443 ms</span>
+                <span class="method-start">6863 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">AddToFavouritesTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">bsDemo.AddToFavouritesTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">7520 ms</span>
+                <span class="method-start">6941 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">addToFavourites</span>
-                <span class="method-start">8281 ms</span>
+                <span class="method-start">7664 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9356 ms</span>
+                <span class="method-start">8719 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
