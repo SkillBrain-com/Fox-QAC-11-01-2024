@@ -4,14 +4,9 @@
 <suite name="practice test">
     <test name="browser stack demo">
         <classes>
-            <class name="bsDemo.LoginTests"></class>
-            <class name="bsDemo.BuyProductTest"></class>
-            <class name="bsDemo.AddToFavouritesTest"></class>
-        </classes>
-    </test>
-    <test name="tool shop">
-        <classes>
-            <class name="toolShop.RegisterTest"></class>
+            <class name="LoginTests"></class>
+            <class name="BuyProductTest"></class>
+            <class name="AddToFavouritesTest"></class>
         </classes>
     </test>
 </suite>

@@ -1,7 +1,4 @@
-package bsDemo;
-
 import org.testng.annotations.Test;
-import util.BasePage;
 
 public class AddToFavouritesTest extends BasePage {
 
