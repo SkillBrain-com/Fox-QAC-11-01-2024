@@ -1,4 +1,10 @@
+package browserStackDemoTests;
+
+import browserStackDemo.FavouritesPage;
+import browserStackDemo.HomePage;
+import browserStackDemo.LoginPage;
 import org.testng.annotations.Test;
+import utils.BasePage;
 
 public class AddToFavouritesTest extends BasePage {
 
