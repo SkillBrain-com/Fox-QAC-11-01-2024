@@ -1,6 +1,9 @@
+import browserStackDemo.HomePage;
+import browserStackDemo.LoginPage;
 import org.testng.annotations.Test;
+import utils.BasePage;
 
-public class LoginTests extends BasePage{
+public class LoginTests extends BasePage {
 
 
     @Test
