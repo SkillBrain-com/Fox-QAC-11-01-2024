@@ -1,3 +1,5 @@
+package browserStackDemoTests;
+
 import browserStackDemo.FavouritesPage;
 import browserStackDemo.HomePage;
 import browserStackDemo.LoginPage;

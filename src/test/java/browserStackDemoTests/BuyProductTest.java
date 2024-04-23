@@ -1,3 +1,5 @@
+package browserStackDemoTests;
+
 import browserStackDemo.CheckoutPage;
 import browserStackDemo.HomePage;
 import browserStackDemo.LoginPage;

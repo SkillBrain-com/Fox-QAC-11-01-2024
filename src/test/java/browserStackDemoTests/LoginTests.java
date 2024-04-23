@@ -1,3 +1,5 @@
+package browserStackDemoTests;
+
 import browserStackDemo.HomePage;
 import browserStackDemo.LoginPage;
 import org.testng.annotations.Test;
