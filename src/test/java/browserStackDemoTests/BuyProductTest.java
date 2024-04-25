@@ -1,6 +1,13 @@
-import org.testng.annotations.Test;
+package browserStackDemoTests;
 
-public class BuyProductTest extends BasePage{
+import browserStackDemo.CheckoutPage;
+import browserStackDemo.HomePage;
+import browserStackDemo.LoginPage;
+import browserStackDemo.OrderConfirmationPage;
+import org.testng.annotations.Test;
+import utils.BasePage;
+
+public class BuyProductTest extends BasePage {
 
     @Test
     public void buyProduct() {

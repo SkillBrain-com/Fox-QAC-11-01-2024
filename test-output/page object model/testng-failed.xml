@@ -3,13 +3,13 @@
 <suite name="Failed suite [page object model]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="page object model(failed)">
     <classes>
-      <class name="AddToFavouritesTest">
+      <class name="browserStackDemoTests.AddToFavouritesTest">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
           <include name="addToFavourites"/>
         </methods>
-      </class> <!-- AddToFavouritesTest -->
+      </class> <!-- browserStackDemoTests.AddToFavouritesTest -->
     </classes>
   </test> <!-- page object model(failed) -->
 </suite> <!-- Failed suite [page object model] -->

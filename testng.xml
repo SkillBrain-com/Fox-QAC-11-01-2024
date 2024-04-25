@@ -4,9 +4,9 @@
 <suite name="page object model">
     <test name="page object model">
         <classes>
-            <class name="LoginTests"></class>
-            <class name="BuyProductTest"></class>
-            <class name="AddToFavouritesTest"></class>
+            <class name="browserStackDemoTests.LoginTests"></class>
+            <class name="browserStackDemoTests.BuyProductTest"></class>
+            <class name="browserStackDemoTests.AddToFavouritesTest"></class>
         </classes>
     </test>
 </suite>
