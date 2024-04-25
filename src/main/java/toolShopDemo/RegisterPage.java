@@ -46,4 +46,8 @@ String phone, String email, String password){
     driver.findElement(submitButton).click();
 }
 
+public void clickRegister(){
+    driver.findElement(submitButton).click();
+}
+
 }
