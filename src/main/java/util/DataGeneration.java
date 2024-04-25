@@ -24,7 +24,7 @@ public class DataGeneration {
         postCode = faker.address().zipCode();
         city = faker.address().city();
         state = faker.address().state();
-        country = faker.address().country();
+        country = "Oman";
         phone = faker.number().digits(10);
 
         email = firstName+"."+lastName + "@mailinator.com";
