@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="tool shop" preserve-order="true">
+    <test name = "tool shop">
+        <classes>
+            <class name="toolShopDemoTests.RegisterTest"></class>
+            <class name="toolShopDemoTests.LoginTest"></class>
+        </classes>
+    </test>
+</suite>

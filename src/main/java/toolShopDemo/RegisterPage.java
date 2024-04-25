@@ -46,8 +46,10 @@ public class RegisterPage {
         driver.findElement(this.password).sendKeys(password);
 
         driver.findElement(submitButton).click();
+    }
 
-
+    public void clickRegister(){
+        driver.findElement(submitButton).click();
     }
 
 
