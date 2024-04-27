@@ -2,11 +2,23 @@ package toolShopDemoTests;
 
 import org.testng.annotations.Test;
 import toolShopDemo.LoginPage;
+import toolShopDemo.RegisterErrorsPage;
 import toolShopDemo.RegisterPage;
 import utils.BasePage;
 import utils.DataGeneration;
 
 public class RegisterTest extends BasePage {
+    @Test
+    public void verifyMandatoryFields(){
+        RegisterErrorsPage errorsPage = new RegisterErrorsPage(driver);
+        RegisterPage registerPage = new RegisterPage(driver);
+        driver.get("https://practicesoftwaretesting.com/#/auth/register");
+
+        registerPage.cickRegister();
+        errorsPage.verifyMandatoryFields();
+
+
+    }
 
     @Test
     public void registerTest(){
