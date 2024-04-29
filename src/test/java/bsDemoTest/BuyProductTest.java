@@ -22,6 +22,7 @@ public class BuyProductTest extends BasePage {
         homePage.verifyCart();
         homePage.checkout();
         loginPage.login("demouser", "testingisfun99");
+        homePage.verifyLogin();
         checkoutPage.fillShipping();
         orderConfirmationPage.verifyOrderPlacement();
     }

@@ -3,20 +3,13 @@
 <suite name="Failed suite [tool shop]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="tool shop(failed)">
     <classes>
-      <class name="toolShopTests.LoginTest">
-        <methods>
-          <include name="login"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- toolShopTests.LoginTest -->
-      <class name="toolShopTests.RegisterTest">
+      <class name="toolShopTests.BuyProduct">
         <methods>
           <include name="setup"/>
-          <include name="registerTest"/>
+          <include name="buyProduct"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- toolShopTests.RegisterTest -->
+      </class> <!-- toolShopTests.BuyProduct -->
     </classes>
   </test> <!-- tool shop(failed) -->
 </suite> <!-- Failed suite [tool shop] -->
