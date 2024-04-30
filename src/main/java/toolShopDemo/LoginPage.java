@@ -14,7 +14,7 @@ public class LoginPage {
 
     private By pageTitle = By.cssSelector(".col-lg-6.auth-form>h3");
 
-    private By userName = By.cssSelector(".input-group.mb-3>input[placeholder=\"Your E-mail *\"]");
+    private By userName = By.cssSelector(".input-group.mb-3>input[id=\"email\"]");
     private By password = By.xpath("//div[@class=\"input-group mb-3\"]/child::input[@formcontrolname=\"password\"]");
     private By login = By.xpath("//input[@data-test=\"login-submit\"]");
 
