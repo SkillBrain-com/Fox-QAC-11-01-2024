@@ -11,5 +11,6 @@ public class ScrollTest extends BasePage {
         driver.get("https://practicesoftwaretesting.com/#/");
         homePage.scrollToElement();
         Thread.sleep(4000);
+
     }
 }
