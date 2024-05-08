@@ -16,7 +16,7 @@ private By dateOfBirth = By.cssSelector("#dob");
 private By address = By.cssSelector("#address");
 private By postCode = By.cssSelector("#postcode");
 private By city = By.cssSelector("#city");
-private By state = By.cssSelector("#city");
+private By state = By.cssSelector("#state");
 
 private By countryDropdown = By.cssSelector("#country");
 
@@ -47,6 +47,7 @@ String phone, String email, String password){
 }
 
 public void clickRegister(){
+
     driver.findElement(submitButton).click();
 }
 

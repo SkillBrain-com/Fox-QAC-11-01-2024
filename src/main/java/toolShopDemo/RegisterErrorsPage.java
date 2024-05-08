@@ -24,17 +24,17 @@ private By emailErr = By.cssSelector("div[data-test=\"email-error\"]");
 private By passwordErr = By.cssSelector("div[data-test=\"password-error\"]");
 
 public void verifyMandatoryFields(){
-    Assert.assertTrue(driver.findElement(firstNameErr).isDisplayed();
-    Assert.assertTrue(driver.findElement(lastNameErr).isDisplayed();
-    Assert.assertTrue(driver.findElement(dateOfBirthErr).isDisplayed();
-    Assert.assertTrue(driver.findElement(addressErr).isDisplayed();
-    Assert.assertTrue(driver.findElement(postCodeErr).isDisplayed();
-    Assert.assertTrue(driver.findElement(cityErr).isDisplayed();
-    Assert.assertTrue(driver.findElement(stateErr).isDisplayed();
-    Assert.assertTrue(driver.findElement(countryErr).isDisplayed();
-    Assert.assertTrue(driver.findElement(phoneErr).isDisplayed();
-    Assert.assertTrue(driver.findElement(emailErr).isDisplayed();
-    Assert.assertTrue(driver.findElement(passwordErr).isDisplayed();
+    Assert.assertTrue(driver.findElement(firstNameErr).isDisplayed());
+    Assert.assertTrue(driver.findElement(lastNameErr).isDisplayed());
+    Assert.assertTrue(driver.findElement(dateOfBirthErr).isDisplayed());
+    Assert.assertTrue(driver.findElement(addressErr).isDisplayed());
+    Assert.assertTrue(driver.findElement(postCodeErr).isDisplayed());
+    Assert.assertTrue(driver.findElement(cityErr).isDisplayed());
+    Assert.assertTrue(driver.findElement(stateErr).isDisplayed());
+    Assert.assertTrue(driver.findElement(countryErr).isDisplayed());
+    Assert.assertTrue(driver.findElement(phoneErr).isDisplayed());
+    Assert.assertTrue(driver.findElement(emailErr).isDisplayed());
+    Assert.assertTrue(driver.findElement(passwordErr).isDisplayed());
 }
 
 

@@ -20,7 +20,7 @@ public class DataGeneration {
 
 
 
-    public DataGeneration() {
+    private DataGeneration() {
         firstName = faker.name().firstName();
         lastName = faker.name().lastName();
         dateOfBirth = "0212194";

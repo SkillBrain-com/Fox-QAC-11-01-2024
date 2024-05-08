@@ -97,8 +97,8 @@ public class HomePage {
         driver.findElement(goToFavouritesPage).click();
     }
 
-    public WebElement extractProductName(){
-        return driver.findElement(productName);
+    public String extractProductName(){
+        return driver.findElement(productName).getText();
     }
 
 }

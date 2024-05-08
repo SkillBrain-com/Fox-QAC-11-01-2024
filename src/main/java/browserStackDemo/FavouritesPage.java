@@ -8,6 +8,7 @@ public class FavouritesPage {
     //Constructor
     WebDriver driver;
     public FavouritesPage(WebDriver driver){
+
         this.driver = driver;
     }
 

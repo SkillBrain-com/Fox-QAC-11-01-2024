@@ -20,9 +20,9 @@ public class BuyProductTest extends BasePage {
 
         homePage.addToCart();
         homePage.verifyCart();
-
+        homePage.checkout();
         loginPage.login("demouser", "testingisfun99");
         checkoutPage.fillShipping();
-        OrderConfirmationPage.verifyOrderPlacement();
+        orderConfirmationPage.verifyOrderPlacement();
     }
 }

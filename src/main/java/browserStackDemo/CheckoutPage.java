@@ -7,6 +7,7 @@ public class CheckoutPage {
     //Constructor
     WebDriver driver;
     public CheckoutPage(WebDriver driver) {
+
         this.driver = driver;
     }
 
