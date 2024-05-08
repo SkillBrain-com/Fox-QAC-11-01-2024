@@ -17,4 +17,8 @@ public class HomePage {
         actions.scrollToElement(driver.findElement(product));
         actions.perform();
     }
+
+    public void clickProduct(){
+        driver.findElement(product).click();
+    }
 }

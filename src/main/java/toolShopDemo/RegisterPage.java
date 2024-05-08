@@ -46,7 +46,8 @@ public class RegisterPage {
         driver.findElement(submitButton).click();
     }
 
-    public void cickRegister(){
+    public void cickRegister()
+    {
         driver.findElement(submitButton).click();
     }
 }

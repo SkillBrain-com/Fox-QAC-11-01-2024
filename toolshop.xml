@@ -6,6 +6,7 @@
         <classes>
             <class name="toolShopDemoTests.RegisterTest"/>
             <class name="toolShopDemoTests.LoginTest"/>
+            <class name="toolShopDemoTests.BuyProductTest"></class>
         </classes>
     </test>
 </suite>
