@@ -33,6 +33,9 @@ public class BasePage {
         //In cazul nostru neavand o aplicatie de test suficient de complexa
         //Vom naviga catre url din fiecare clasa de test in parte
         // driver.get("URL");
+
+        // Trimitem o instanta a driver-ului catre testListeners pt a avea acces la browser
+        TestListeners.driver = driver;
     }
 
     @AfterMethod(alwaysRun = true)

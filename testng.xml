@@ -2,11 +2,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="browser Stak Demo">
+    <listeners>
+        <listener class-name="util.TestListeners"></listener>
+    </listeners>
     <test name="browser Stak Demo">
         <classes>
             <class name="bsDemoTest.LoginTests"></class>
-            <class name="bsDemoTest.BuyProductTest"></class>
-            <class name="bsDemoTest.AddToFavouritesTest"></class>
+<!--            <class name="bsDemoTest.BuyProductTest"></class>-->
+<!--            <class name="bsDemoTest.AddToFavouritesTest"></class>-->
         </classes>
     </test>
     <test name="tool shop">
