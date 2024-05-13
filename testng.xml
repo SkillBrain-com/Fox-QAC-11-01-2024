@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
+
 <suite name="practice test">
+    <listeners>
+        <listener class-name="utils.TestListeners"></listener>
+    </listeners>
     <test name="browser stack demo">
         <classes>
             <class name="browserStackDemoTests.LoginTests"></class>
-            <class name="browserStackDemoTests.BuyProductTest"></class>
-            <class name="browserStackDemoTests.AddToFavouritesTest"></class>
+<!--            <class name="browserStackDemoTests.BuyProductTest"></class>-->
+<!--            <class name="browserStackDemoTests.AddToFavouritesTest"></class>-->
         </classes>
     </test>
 </suite>

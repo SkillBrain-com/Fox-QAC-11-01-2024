@@ -40,7 +40,7 @@ public class HomePage {
     //Metodele cu pasii
     public void verifyLogin(){
         String username = driver.findElement(usernameSpan).getText();
-        Assert.assertEquals(username, "demouser");
+        Assert.assertEquals(username, "demo");
 
         String button = driver.findElement(logoutButton).getText();
         Assert.assertEquals(button, "Logout");
