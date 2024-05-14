@@ -3,6 +3,13 @@
 <suite name="Failed suite [tool shop]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="tool shop(failed)">
     <classes>
+      <class name="toolShopDemoTests.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- toolShopDemoTests.LoginTest -->
       <class name="toolShopDemoTests.BuyProductTest">
         <methods>
           <include name="setup"/>

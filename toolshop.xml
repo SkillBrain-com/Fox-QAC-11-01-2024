@@ -2,6 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="tool shop" preserve-order="true">
+    <listeners>
+        <listener class-name="utils.TestListeners"></listener>
+    </listeners>
     <test name = "tool shop">
         <classes>
             <class name="toolShopDemoTests.RegisterTest"></class>

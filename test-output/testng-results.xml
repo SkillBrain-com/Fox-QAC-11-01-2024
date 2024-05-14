@@ -1,65 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-30T20:56:09 EEST" name="tool shop" finished-at="2024-04-30T20:56:35 EEST" duration-ms="26396">
+  <suite started-at="2024-05-14T22:13:41 EEST" name="tool shop" finished-at="2024-05-14T22:14:05 EEST" duration-ms="23734">
     <groups>
     </groups>
-    <test started-at="2024-04-30T20:56:09 EEST" name="tool shop" finished-at="2024-04-30T20:56:35 EEST" duration-ms="26396">
+    <test started-at="2024-05-14T22:13:41 EEST" name="tool shop" finished-at="2024-05-14T22:14:05 EEST" duration-ms="23734">
       <class name="toolShopDemoTests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:toolShopDemoTests.LoginTest@19d37183]" started-at="2024-04-30T20:56:22 EEST" name="setup" finished-at="2024-04-30T20:56:24 EEST" duration-ms="2398" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:toolShopDemoTests.LoginTest@2928854b]" started-at="2024-05-14T22:13:51 EEST" name="setup" finished-at="2024-05-14T22:13:54 EEST" duration-ms="2395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:0, instance:toolShopDemoTests.LoginTest@19d37183]" started-at="2024-04-30T20:56:24 EEST" name="login" finished-at="2024-04-30T20:56:26 EEST" duration-ms="2098" status="PASS">
+        <test-method signature="login()[pri:0, instance:toolShopDemoTests.LoginTest@2928854b]" started-at="2024-05-14T22:13:54 EEST" name="login" finished-at="2024-05-14T22:13:56 EEST" duration-ms="2183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:toolShopDemoTests.LoginTest@19d37183]" started-at="2024-04-30T20:56:26 EEST" name="tearDown" finished-at="2024-04-30T20:56:27 EEST" duration-ms="657" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:toolShopDemoTests.LoginTest@2928854b]" started-at="2024-05-14T22:13:56 EEST" name="tearDown" finished-at="2024-05-14T22:13:56 EEST" duration-ms="657" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- toolShopDemoTests.LoginTest -->
       <class name="toolShopDemoTests.BuyProductTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:toolShopDemoTests.BuyProductTest@1a0dcaa]" started-at="2024-04-30T20:56:27 EEST" name="setup" finished-at="2024-04-30T20:56:29 EEST" duration-ms="2424" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:toolShopDemoTests.BuyProductTest@27ae2fd0]" started-at="2024-05-14T22:13:56 EEST" name="setup" finished-at="2024-05-14T22:13:59 EEST" duration-ms="2255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="buyProduct()[pri:0, instance:toolShopDemoTests.BuyProductTest@1a0dcaa]" started-at="2024-04-30T20:56:29 EEST" name="buyProduct" finished-at="2024-04-30T20:56:34 EEST" duration-ms="5067" status="PASS">
+        <test-method signature="buyProduct()[pri:0, instance:toolShopDemoTests.BuyProductTest@27ae2fd0]" started-at="2024-05-14T22:13:59 EEST" name="buyProduct" finished-at="2024-05-14T22:14:04 EEST" duration-ms="5356" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- buyProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:toolShopDemoTests.BuyProductTest@1a0dcaa]" started-at="2024-04-30T20:56:34 EEST" name="tearDown" finished-at="2024-04-30T20:56:35 EEST" duration-ms="652" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:toolShopDemoTests.BuyProductTest@27ae2fd0]" started-at="2024-05-14T22:14:04 EEST" name="tearDown" finished-at="2024-05-14T22:14:05 EEST" duration-ms="638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- toolShopDemoTests.BuyProductTest -->
       <class name="toolShopDemoTests.RegisterTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:toolShopDemoTests.RegisterTest@4034c28c]" started-at="2024-04-30T20:56:09 EEST" name="setup" finished-at="2024-04-30T20:56:13 EEST" duration-ms="4376" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:toolShopDemoTests.RegisterTest@79efed2d]" started-at="2024-05-14T22:13:41 EEST" name="setup" finished-at="2024-05-14T22:13:43 EEST" duration-ms="2192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="registerTest()[pri:0, instance:toolShopDemoTests.RegisterTest@4034c28c]" started-at="2024-04-30T20:56:13 EEST" name="registerTest" finished-at="2024-04-30T20:56:17 EEST" duration-ms="3534" status="PASS">
+        <test-method signature="registerTest()[pri:0, instance:toolShopDemoTests.RegisterTest@79efed2d]" started-at="2024-05-14T22:13:43 EEST" name="registerTest" finished-at="2024-05-14T22:13:46 EEST" duration-ms="3233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:toolShopDemoTests.RegisterTest@4034c28c]" started-at="2024-04-30T20:56:17 EEST" name="tearDown" finished-at="2024-04-30T20:56:17 EEST" duration-ms="662" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:toolShopDemoTests.RegisterTest@79efed2d]" started-at="2024-05-14T22:13:46 EEST" name="tearDown" finished-at="2024-05-14T22:13:47 EEST" duration-ms="637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:toolShopDemoTests.RegisterTest@4034c28c]" started-at="2024-04-30T20:56:17 EEST" name="setup" finished-at="2024-04-30T20:56:20 EEST" duration-ms="2454" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:toolShopDemoTests.RegisterTest@79efed2d]" started-at="2024-05-14T22:13:47 EEST" name="setup" finished-at="2024-05-14T22:13:49 EEST" duration-ms="2287" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyMandatoryFields()[pri:0, instance:toolShopDemoTests.RegisterTest@4034c28c]" started-at="2024-04-30T20:56:20 EEST" name="verifyMandatoryFields" finished-at="2024-04-30T20:56:21 EEST" duration-ms="1225" status="PASS">
+        <test-method signature="verifyMandatoryFields()[pri:0, instance:toolShopDemoTests.RegisterTest@79efed2d]" started-at="2024-05-14T22:13:49 EEST" name="verifyMandatoryFields" finished-at="2024-05-14T22:13:50 EEST" duration-ms="1257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMandatoryFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:toolShopDemoTests.RegisterTest@4034c28c]" started-at="2024-04-30T20:56:21 EEST" name="tearDown" finished-at="2024-04-30T20:56:22 EEST" duration-ms="630" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:toolShopDemoTests.RegisterTest@79efed2d]" started-at="2024-05-14T22:13:50 EEST" name="tearDown" finished-at="2024-05-14T22:13:51 EEST" duration-ms="639" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- toolShopDemoTests.RegisterTest -->
     </test> <!-- tool shop -->
   </suite> <!-- tool shop -->
+  <suite started-at="2024-05-14T22:13:14 EEST" name="page object model" finished-at="2024-05-14T22:13:41 EEST" duration-ms="26442">
+    <groups>
+    </groups>
+    <test started-at="2024-05-14T22:13:14 EEST" name="page object model" finished-at="2024-05-14T22:13:41 EEST" duration-ms="26442">
+      <class name="browserStackDemoTests.BuyProductTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:browserStackDemoTests.BuyProductTest@7a52f2a2]" started-at="2024-05-14T22:13:29 EEST" name="setup" finished-at="2024-05-14T22:13:31 EEST" duration-ms="2411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="buyProduct()[pri:0, instance:browserStackDemoTests.BuyProductTest@7a52f2a2]" started-at="2024-05-14T22:13:31 EEST" name="buyProduct" finished-at="2024-05-14T22:13:35 EEST" duration-ms="4202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:browserStackDemoTests.BuyProductTest@7a52f2a2]" started-at="2024-05-14T22:13:35 EEST" name="tearDown" finished-at="2024-05-14T22:13:36 EEST" duration-ms="790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- browserStackDemoTests.BuyProductTest -->
+      <class name="browserStackDemoTests.LoginTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:browserStackDemoTests.LoginTests@1a84f40f]" started-at="2024-05-14T22:13:14 EEST" name="setup" finished-at="2024-05-14T22:13:18 EEST" duration-ms="3420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="lockedAccount()[pri:0, instance:browserStackDemoTests.LoginTests@1a84f40f]" started-at="2024-05-14T22:13:18 EEST" name="lockedAccount" finished-at="2024-05-14T22:13:19 EEST" duration-ms="1067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lockedAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:browserStackDemoTests.LoginTests@1a84f40f]" started-at="2024-05-14T22:13:19 EEST" name="tearDown" finished-at="2024-05-14T22:13:20 EEST" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:browserStackDemoTests.LoginTests@1a84f40f]" started-at="2024-05-14T22:13:20 EEST" name="setup" finished-at="2024-05-14T22:13:22 EEST" duration-ms="2397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="successfulLogin()[pri:0, instance:browserStackDemoTests.LoginTests@1a84f40f]" started-at="2024-05-14T22:13:22 EEST" name="successfulLogin" finished-at="2024-05-14T22:13:24 EEST" duration-ms="1905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:browserStackDemoTests.LoginTests@1a84f40f]" started-at="2024-05-14T22:13:24 EEST" name="tearDown" finished-at="2024-05-14T22:13:25 EEST" duration-ms="626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:browserStackDemoTests.LoginTests@1a84f40f]" started-at="2024-05-14T22:13:25 EEST" name="setup" finished-at="2024-05-14T22:13:27 EEST" duration-ms="2253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="unsuccessfulLogin()[pri:0, instance:browserStackDemoTests.LoginTests@1a84f40f]" started-at="2024-05-14T22:13:27 EEST" name="unsuccessfulLogin" finished-at="2024-05-14T22:13:28 EEST" duration-ms="1040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unsuccessfulLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:browserStackDemoTests.LoginTests@1a84f40f]" started-at="2024-05-14T22:13:28 EEST" name="tearDown" finished-at="2024-05-14T22:13:28 EEST" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- browserStackDemoTests.LoginTests -->
+      <class name="browserStackDemoTests.AddToFavoritesTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:browserStackDemoTests.AddToFavoritesTest@78047b92]" started-at="2024-05-14T22:13:36 EEST" name="setup" finished-at="2024-05-14T22:13:38 EEST" duration-ms="2292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addToFavorites()[pri:0, instance:browserStackDemoTests.AddToFavoritesTest@78047b92]" started-at="2024-05-14T22:13:38 EEST" name="addToFavorites" finished-at="2024-05-14T22:13:40 EEST" duration-ms="1975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToFavorites -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:browserStackDemoTests.AddToFavoritesTest@78047b92]" started-at="2024-05-14T22:13:40 EEST" name="tearDown" finished-at="2024-05-14T22:13:41 EEST" duration-ms="647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- browserStackDemoTests.AddToFavoritesTest -->
+    </test> <!-- page object model -->
+  </suite> <!-- page object model -->
+  <suite started-at="2024-05-14T22:14:05 EEST" name="allTests" finished-at="2024-05-14T22:14:05 EEST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- allTests -->
 </testng-results>
