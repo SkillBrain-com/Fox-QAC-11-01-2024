@@ -36,6 +36,8 @@ public class BasePage {
         //In cazul nostru neavand o aplicatie de test suficient de complexa
         //Vom naviga catre url din fiecare clasa de test in parte
         // driver.get("URL");
+
+        TestListeners.driver = driver;
     }
 
     //Adnotarea @AfterMethod are grija sa execute metoda imediat urmatoare
